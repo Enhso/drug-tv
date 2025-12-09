@@ -1,0 +1,7 @@
+{
+  "drugbankId": "DB00317",
+  "description": "Gefitinib is an EGFR inhibitor used for non-small cell lung cancer.",
+  "mechanismOfAction": "Inhibits the epidermal growth factor receptor (EGFR) tyrosine kinase.",
+  "maxPhase": 4,
+  "polypharmacologyScore": 2
+}

@@ -1,0 +1,7 @@
+{
+  "drugbankId": "DB00619",
+  "description": "Imatinib is a small molecule kinase inhibitor used to treat certain types of cancer.",
+  "mechanismOfAction": "Inhibits the Bcr-Abl tyrosine kinase.",
+  "maxPhase": 4,
+  "polypharmacologyScore": 3
+}

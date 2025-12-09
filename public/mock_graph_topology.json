@@ -1,0 +1,57 @@
+{
+  "nodes": [
+    { "id": "CHEMBL_D1", "type": "drug", "label": "Imatinib" },
+    { "id": "CHEMBL_D2", "type": "drug", "label": "Gefitinib" },
+    { "id": "CHEMBL_D3", "type": "drug", "label": "Metformin" },
+    { "id": "TARGET_T1", "type": "target", "label": "ABL1" },
+    { "id": "TARGET_T2", "type": "target", "label": "EGFR" },
+    { "id": "TARGET_T3", "type": "target", "label": "PRKAA1" },
+    { "id": "TARGET_T4", "type": "target", "label": "INSR" },
+    { "id": "DISEASE_1", "type": "disease", "label": "Chronic Myeloid Leukemia" },
+    { "id": "DISEASE_2", "type": "disease", "label": "Diabetes Mellitus" }
+  ],
+  "edges": [
+    {
+      "source": "CHEMBL_D1",
+      "target": "TARGET_T1",
+      "type": "drug_target_interaction",
+      "data": { "affinityType": "IC50", "affinityNm": 12, "pIC50": 7.92 }
+    },
+    {
+      "source": "CHEMBL_D1",
+      "target": "DISEASE_1",
+      "type": "drug_disease_indication",
+      "data": { "source": "DrugBank" }
+    },
+    {
+      "source": "CHEMBL_D2",
+      "target": "TARGET_T2",
+      "type": "drug_target_interaction",
+      "data": { "affinityType": "IC50", "affinityNm": 33, "pIC50": 7.48 }
+    },
+    {
+      "source": "CHEMBL_D2",
+      "target": "TARGET_T1",
+      "type": "drug_target_interaction",
+      "data": { "affinityType": "IC50", "affinityNm": 500, "pIC50": 6.3 }
+    },
+    {
+      "source": "CHEMBL_D3",
+      "target": "TARGET_T3",
+      "type": "drug_target_interaction",
+      "data": { "affinityType": "Ki", "affinityNm": 1000, "pIC50": 6.0 }
+    },
+    {
+      "source": "CHEMBL_D3",
+      "target": "TARGET_T4",
+      "type": "drug_target_interaction",
+      "data": { "affinityType": "Ki", "affinityNm": 2500, "pIC50": 5.6 }
+    },
+    {
+      "source": "CHEMBL_D3",
+      "target": "DISEASE_2",
+      "type": "drug_disease_indication",
+      "data": { "source": "DrugBank" }
+    }
+  ]
+}

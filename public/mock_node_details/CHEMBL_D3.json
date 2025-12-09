@@ -1,0 +1,7 @@
+{
+  "drugbankId": "DB00331",
+  "description": "Metformin is a biguanide antihyperglycemic agent used for type 2 diabetes.",
+  "mechanismOfAction": "Activates AMP-activated protein kinase (AMPK).",
+  "maxPhase": 4,
+  "polypharmacologyScore": 4
+}
